@@ -1,2 +1,2 @@
-# D-nercim-WebSite
-Döner lokantası için hazırlanan web sitesi 
+# Donercim-WebSite
+Döner lokantası için hazırlanan web sitesi html css kullanılarak hazırlandı 
