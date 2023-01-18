@@ -1,0 +1,26 @@
+/* Text*/
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+     font-size: 1.25rem;
+}
+
+.heading_medium{
+     font-size: 1.5rem;
+}   
+
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/*Colors*/
+
+.bg-dark-blue{
+    background: #131315;
+}
+
+.bg-light-blue{
+    background: #131315;
+} 

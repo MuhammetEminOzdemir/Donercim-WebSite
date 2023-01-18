@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+html{
+    font-family: "Open Sans ",sans-serif;
+}
+/*navbar section*/
+#navbar{
+    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 0.75rem;
+   height: 70px;
+}
+ 
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar h1{
+    color: #f7f700;
+}
+
+#navbar ul li a{
+    padding:0.75rem;
+
+}
+
+#navbar ul li a:hover{
+    background: #2cad33;
+    border-radius: 4px;
+
+}
+
+body{
+    background: #131315;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.giris{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+   
+    
+}
+
+
+table{
+    color: #fff;
+    text-align:center ;
+    border-color:white;
+    background:#131315;   
+}
+
+
+/*Tatlılar*/
+
+#Tatlilar{
+    
+    padding: 1rem;
+}
+
+#Tatlilar h3{
+    background: #131315;
+    color:greenyellow;
+}
+
+.Tatlilar{
+  
+    display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   align-items: center;
+   
+    
+}
+
+.Tatlilar .Tatli{
+    
+  display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.Tatlilar .Tatli .tatli-image{
+    margin-right: 0.5rem;
+    position:relative;
+    
+}
+
+.Tatlilar .Tatli .tatli-image img{
+   border-radius: 5px;
+}
+
+.Tatlilar .Tatli .tatli-image span{
+    background: red;
+    padding: 0.25rem;
+    color:#fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+ }
+
+ 
+
+
+
